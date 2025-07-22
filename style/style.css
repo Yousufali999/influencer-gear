@@ -5,17 +5,45 @@
     list-style: none;
     text-decoration: none;
 }
+:root{
+    --primary_color:#3A3A3A;
+}
 /* font_link  */
 body{
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+  max-width: 1440px;
+  margin: 0 auto;
 } 
-
 
 
 /* nav_style  */
 ul li a{
     color: black;
 
+}
+.nav_section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 87px;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+.nav_tiem_link{
+    color: var(--primary_color);
+}
+
+
+@media screen and (max-width:576px) {
+    .nav_section{
+        flex-direction: column;
+        margin-top: 50px;
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 992px) and (min-width: 576px) {
+      
 }
