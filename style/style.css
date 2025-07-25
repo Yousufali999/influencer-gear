@@ -25,7 +25,7 @@ body{
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  max-width: 1440px;
+  max-width: 1140px;
   margin: 0 auto;
 } 
 nav h2{
@@ -78,7 +78,27 @@ nav ul{
     background-image: url('/images/Circle\ design.svg');
     background-size: cover;
 }
+ /* product_section_style */
+ .our_collection{
+    margin-top:99px ;
+ }
+ .products{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+ }
+ .product{
+    box-shadow: 2px 4px 40px 15px #F5F5F5;
+    /* width: 229px; */
+    padding: 10px;
+    /* text-align: center; */
+    box-sizing: border-box;
 
+ }
+ .product img{
+    width: 100%;
+    margin: auto;
+ }
 
 
 @media screen and (max-width:576px) {
@@ -98,6 +118,9 @@ nav ul{
     .baner_title{
         font-size: 28px;
     }
+     .products{
+       grid-template-columns: 1fr;
+     }
 }
 @media screen and (max-width: 992px) and (min-width: 576px) {
       
