@@ -55,6 +55,7 @@ nav ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* gap: 20px; */
 }
 .baner_contient{
     max-width: 500px;
@@ -74,7 +75,8 @@ nav ul{
     border-radius: 10px;
 }
 .baner_img{
-    background-image: url('/images/Circle\ design.svg');
+    background-image: url('./images/Circle\ design.svg');
+    background-size: cover;
 }
 
 
@@ -84,6 +86,17 @@ nav ul{
         flex-direction: column;
         margin-top: 50px;
         gap: 20px;
+        padding: 15px;
+    }
+    .baner_continer{
+        flex-direction: column-reverse;
+    }
+    .baner_contient{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .baner_title{
+        font-size: 28px;
     }
 }
 @media screen and (max-width: 992px) and (min-width: 576px) {
