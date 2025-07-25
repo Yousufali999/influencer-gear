@@ -14,7 +14,7 @@ img{
 
 :root{
     --primary_color:#3A3A3A;
-    --shakil-color:green;
+    --shakil-color: ;
 }
 
 
@@ -49,6 +49,34 @@ nav ul{
 .nav_tiem_link{
      color: var(--shakil-color);
 }
+/* baner_style_section  */
+.baner_continer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.baner_contient{
+    max-width: 500px;
+}
+.baner_title{
+    font-size: 52px;
+    font-weight: bold;
+}
+.baner_discriptiong{
+    color:#3A3A3A ;
+}
+.baner_btn{
+    color: whitesmoke;
+    background-color: #E02C6D;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+}
+.baner_img{
+    background-image: url('/images/Circle\ design.svg');
+}
+
 
 
 @media screen and (max-width:576px) {
