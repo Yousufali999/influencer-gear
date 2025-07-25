@@ -75,7 +75,7 @@ nav ul{
     border-radius: 10px;
 }
 .baner_img{
-    background-image: url('./images/Circle\ design.svg');
+    background-image: url('/images/Circle\ design.svg');
     background-size: cover;
 }
 
